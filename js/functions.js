@@ -1,18 +1,18 @@
-const nameFunctoin = (age,count) => {
-    if (age >= count) {
+const compare = (name,count) => {
+    if (name >= count) {
         return true;
     }
     return false;
 }
 
-console.log (nameFunctoin ("shah", 4) );
+console.log (compare ("shah", 4) );
 
 
-function isPalindrome (age) {
-    age = age.replaceAll('', '').toLowerCase();
+function isPalindrome (name) {
+    name = name.replaceAll('', '').toLowerCase();
     let reversedString ='';
-    for( let i = age.length - 1; i >= 0; i--) {
-        reversedString += age[i]
+    for( let i = name.length - 1; i >= 0; i--) {
+        reversedString += name[i]
     }
 }
 
