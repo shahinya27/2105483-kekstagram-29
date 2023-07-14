@@ -1,6 +1,6 @@
 const compare = (name,count) => {
   const nameCount = name.lenght;
-    if (name.lenght >= count) {
+  if (nameCount >= count) {
         return true;
     }
     return false;
